@@ -1,7 +1,7 @@
 {
     "name": "mydemos",
     "version": "0.1.0",
-    "main": "src/Componnent/Test.js",
+    "main": "dist/Componnent/Test.js",
     "dependencies": {
         "@testing-library/jest-dom": "^5.11.4",
         "@testing-library/react": "^11.1.0",
@@ -36,5 +36,11 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.28.3",
+        "@babel/core": "^7.28.3",
+        "@babel/preset-env": "^7.28.3",
+        "@babel/preset-react": "^7.27.1"
     }
 }
